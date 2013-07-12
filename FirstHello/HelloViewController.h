@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface HelloViewController : UIViewController
-
+@property (copy,nonatomic) NSString *userName;
 @end
